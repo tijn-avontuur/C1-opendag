@@ -7,6 +7,11 @@ body{
     background-color: #f4f4f4;
     line-height: 1.6;
 }
+.container{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
 
 /* Header + Nav*/
 header{
