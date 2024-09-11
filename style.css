@@ -72,3 +72,16 @@ a:hover{
     display: block;
     margin: 0 auto;
 }
+
+/* Rooster */
+.rooster img{
+    border: 1px solid #333;
+}
+
+/* Footer */
+footer{
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
