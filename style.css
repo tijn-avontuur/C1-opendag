@@ -73,6 +73,24 @@ a:hover{
     margin: 0 auto;
 }
 
+/* Docenten */
+.docentvak{
+    display: flex;
+    align-items: center;
+    background: #67a467;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.docentvak img{
+    width: 10%;
+    height: auto;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
 /* Rooster */
 .rooster img{
     border: 1px solid #333;
