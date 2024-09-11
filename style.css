@@ -93,6 +93,21 @@ a:hover{
     border: 1px solid #333;
 }
 
+/* Vakken */
+.vak{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #67a467;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.vak h2 {
+    margin-bottom: 10px;
+}
+
 /* Footer */
 footer{
     background: #333;
