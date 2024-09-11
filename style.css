@@ -8,21 +8,46 @@ body{
     line-height: 1.6;
 }
 
-/* Header */
+/* Header + Nav*/
 header{
     background: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 header img{
     height: 10%;
     width: 10%;
+    margin-left: 10px;
 }
-header a{
+header nav{
+    flex-grow: 1;
+    text-align: center;
+}
+a{
     color: #fff;
     text-decoration: none;
     font-size: 20px;
     border: 1px solid #fff;
     padding: 5px 10px;
+}
+a:hover{
+    background: #fff;
+    color: #333;
+}
+
+/* Main */
+.homeimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.homeinfo{
+    background: #64af64;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
